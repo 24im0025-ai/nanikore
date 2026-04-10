@@ -6,6 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   base: './', // これを追加（または '/リポジトリ名/' ）
   plugins: [
+    base: './',
     react(),
     tailwindcss(),
   ],
